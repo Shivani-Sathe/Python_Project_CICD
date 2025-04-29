@@ -12,7 +12,7 @@ services:
       - "3306:3306"
  
   web:
-    build: .
+    image: shivani138/python_cicd_image:latest
     container_name: flask-app
     ports:
       - "5000:5000"
